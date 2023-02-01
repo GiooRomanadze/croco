@@ -1,0 +1,27 @@
+{
+  "name": "croco",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "NODE_OPTIONS='--experimental-vm-modules --experimental-specifier-resolution=node' jest"
+  },
+  "dependencies": {
+    "lit": "^2.4.1"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "node-fetch": "^3.3.0",
+    "puppeteer": "^19.6.2",
+    "vite": "^4.0.0"
+  }
+}

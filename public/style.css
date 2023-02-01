@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: crocoItalic;
+    src: url('/fonts/croco_italic.ttf')
+}
+
+@font-face {
+    font-family: crocoRegular;
+    src: url('/fonts/croco_regular.ttf')
+}
